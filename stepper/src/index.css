@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('./assets/fonts/AmazonEmber_Rg.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_RgIt.ttf') format('truetype'),
+    url('./assets/fonts/Amazon-Ember-Medium.ttf') format('truetype'),
+    url('./assets/fonts/Amazon-Ember-MediumItalic.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_Bd.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_BdIt.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_He.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_HeIt.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_Lt.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_LtIt.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_Th.ttf') format('truetype'),
+    url('./assets/fonts/AmazonEmber_ThIt.ttf') format('truetype');
+}
+
+:root {
+  font-family: 'Amazon Ember', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px 16px;
+  margin-top: 1em;
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+  background-color: #3f51b5;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover {
+  background-color: #002984;
+}
+button:focus,
+button:focus-visible {
+  background-color: #002984;
+  outline: none;
+}
