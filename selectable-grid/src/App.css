@@ -1,0 +1,28 @@
+.main-section {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 10), 35px);
+  grid-template-rows: repeat(var(--rows, 10), 35px);
+  gap: 2px;
+  user-select: none; /* To stop users from selecting the text inside */
+}
+
+.box {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  background-color: lightblue;
+}
